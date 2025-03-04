@@ -170,4 +170,39 @@
       font-size: 22px;
     }
   }
+  .middle-section.p3 {
+    padding: 150px 190px;
+    .main-container {
+      padding: 50px 80px;
+      color: white;
+      display: flex;
+
+      align-items: center;
+      background-color: #3882f6;
+      border-radius: 10px;
+      gap: 30%;
+      .title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 2px;
+      }
+      p {
+        font-size: 18px;
+      }
+      .right-section {
+        display: flex;
+        align-items: center;
+
+        button {
+          color: white;
+          background: #3882f6;
+          border: 2px solid white;
+          border-radius: 5px;
+          padding: 4% 20px;
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
 }
